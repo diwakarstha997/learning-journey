@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User registration</title>
+  </head>
+  <body>
+    <a href="/">Home</a>
+
+    <h1>User Registration</h1>
+    <hr />
+
+    <!-- http://127.0.0.1:5501/form.html? -->
+    <form action="" method="post" enctype="">
+      <p>
+        <label> User Name* :</label>
+        <input name="userName" type="text" required />
+      </p>
+      <p>
+        <label> Email:</label>
+        <input type="email" required name="email" />
+      </p>
+      <p>
+        <label> Phone:</label>
+        <input type="number" name="phone" />
+      </p>
+      <p>
+        <label> Password:</label>
+        <input type="password" required name="password" />
+      </p>
+      <p>
+        <label> LinkedIN:</label>
+        <input type="url" />
+      </p>
+      <p>
+        <label> DOB:</label>
+        <input type="date" />
+      </p>
+      <p>
+        <label>Message</label> <br />
+        <textarea cols="30" rows="10"></textarea>
+      </p>
+
+      <!-- file send -->
+      <p>
+        <label> Upload Resume:</label>
+        <input type="file" multiple />
+      </p>
+
+      <!-- radio button -->
+      <p>
+        <label for="">Gender: </label>
+        <input name="gender" type="radio" /> <label>Male</label>
+        <input name="gender" type="radio" /><label>FeMale</label>
+        <input name="gender" type="radio" /><label>N/A</label>
+      </p>
+
+      <!-- checkbox -->
+
+      <p>
+        <label for="">What do you want to learn?</label> <br />
+        <input type="checkbox" /> <label for="">HTML</label> <br />
+        <input type="checkbox" /> <label for="">CSS</label><br />
+        <input type="checkbox" /> <label for="">Javascript</label>
+      </p>
+
+      <hr />
+
+      <p>
+        <input type="checkbox" name="" id="" />
+        <label for="">I accept the T&Cs</label>
+      </p>
+
+      <!-- drop down select -->
+      <p>
+        <label for="">Fruit list</label>
+        <select name="" id="" multiple>
+          <option value="">-- select --</option>
+          <option value="">Apple</option>
+          <option value="">Banana</option>
+          <option value="">Mango</option>
+          <option value="">Potato</option>
+        </select>
+      </p>
+      <p>
+        <label for="">Fruit and vegi list</label>
+        <select name="" id="">
+          <optgroup label="fruits">
+            <option value="">Apple</option>
+            <option value="">Banana</option>
+            <option value="">Mango</option>
+            <option value="">Potato</option>
+          </optgroup>
+          <optgroup label="Vegi">
+            <option value="">Potato</option>
+            <option value="">tomato</option>
+            <option value="">onion</option>
+          </optgroup>
+        </select>
+      </p>
+
+      <!-- data list -->
+
+      <p>
+        <label for="">Fruit and vegi list</label>
+
+        <input type="text" list="linked" />
+
+        <datalist id="linked">
+          <option value="Apple">Apple</option>
+          <option value="Banana">Banana</option>
+          <option value="mang">Mango</option>
+          <option value="Potato">Potato</option>
+          <option value="tomato">tomato</option>
+          <option value="onion">onion</option>
+        </datalist>
+      </p>
+
+      <p>
+        <button>Submit</button>
+      </p>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </form>
+  </body>
+</html>
