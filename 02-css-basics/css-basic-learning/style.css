@@ -1,0 +1,92 @@
+/* p {
+  color: green !important;
+} */
+
+/* p {
+  color: blue !important;
+} */
+
+/* section {
+  background: black;
+  color: white;
+} */
+
+/* id selector */
+/* #fifth {
+  color: red;
+} */
+
+/* .pg {
+  color: aqua;
+} */
+
+/* Descendant (space) */
+/* section p {
+  color: green;
+  text-decoration: line-through;
+} */
+
+/* Child (>) */
+
+/* section > p {
+  text-decoration: underline;
+  font-size: 32px;
+} */
+
+/* section > div > p {
+  text-decoration: underline;
+  font-size: 32px;
+} */
+
+/* Adjacent (+) */
+/* section + p {
+  font-size: 32px;
+} */
+
+/* Sibling (~) */
+
+/* section ~ p {
+  font-size: 20px;
+  background: blue;
+} */
+
+/* attribute selector */
+/* [href] {
+  font-size: 32px;
+  text-decoration: none;
+} */
+
+/* [href="contact.html"] {
+  color: red;
+} */
+
+/* sudo element selector */
+/* p::first-line {
+  color: red;
+}
+
+p::first-letter {
+  font-size: 32px;
+  text-transform: uppercase;
+} */
+
+/* a::before {
+  content: "hi ";
+} */
+
+/* a::after {
+  content: "😅😅";
+} */
+
+/* psudo class selector */
+/* a:hover {
+  font-size: 32px;
+  color: red;
+} */
+
+/* p:nth-child(1) {
+  color: red;
+} */
+p:nth-child(even) {
+  color: red;
+}
