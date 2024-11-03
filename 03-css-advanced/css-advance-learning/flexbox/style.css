@@ -27,8 +27,18 @@ body {
 
 .item-3 {
   flex-grow: 1;
+  order: -1;
 }
 
 .item-7 {
   flex-grow: 3;
+  order: -2;
+}
+
+.item-1 {
+  order: -3;
+}
+
+.parent > div:nth-child(even) {
+  background: green;
 }
