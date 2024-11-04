@@ -1,0 +1,16 @@
+div {
+  background: blue;
+  height: 100px;
+  width: 100px;
+
+  margin: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div1 {
+  /* Y-axis X-axis Bluriness Shadow-length Color inside or outside box*/
+  box-shadow: -20px 20px 9px 10px grey;
+}
