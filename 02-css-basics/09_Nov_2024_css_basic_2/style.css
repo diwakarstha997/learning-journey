@@ -1,0 +1,60 @@
+/* CSS Colors */
+.color {
+  /* color: red; */
+  /* color: rgb(47, 86, 177); */
+  /* color: #2d9e31; */
+  color: hsl(192, 7%, 59%);
+}
+
+/* CSS Borders */
+.border {
+  /* border: 8px solid red; */
+  border-radius: 20px;
+  border-bottom: 8px solid black;
+}
+
+/* CSS Text */
+.text {
+  text-align: center;
+  /* text-decoration: line-through; */
+  text-decoration: underline overline #ff3028;
+  text-transform: uppercase;
+  text-shadow: #fc0 1px 0 10px;
+}
+
+/* CSS Fonts */
+.font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* CSS Units */
+/* 
+1. Absolute Units
+2. Relative Units 
+*/
+.absoute-unit {
+  /* font-size: 4cm; */
+  /* font-size: 10mm; */
+  /* font-size: 1in; */
+  /* font-size: 12pt; */
+  font-size: 24px;
+}
+
+.relative-unit {
+  /* font-size: 50%; */
+  /* font-size: 10vh; */
+  font-size: 10vw;
+}
+
+.parent-text {
+  font-size: 64px;
+}
+
+.child-text {
+  /* font-size: 50%; */
+  /* font-size: 1em; */
+  font-size: 1rem;
+}
