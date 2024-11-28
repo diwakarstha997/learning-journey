@@ -1,0 +1,26 @@
+# Grid Interview Questions
+
+Explain the key diff btn flexbox and css grid layout? When would you use one over another?
+How can you build a grid system with 4 rows and 5 columns?
+How can you build a basic webpage layout structure using grid?
+Particular properties questions
+
+# Media Query Interview Question
+
+what do you mean by responsive design?
+How to achieve responsive design in css?
+Can you tell us common breakpoints?
+
+# css position
+
+what is css position?
+what are different type of css position?
+Give an practical example where you would use each poisition types?
+
+## Assignment
+
+Improve travel blog to use genuine data, uconcept and brand color use the grid concept for layout media query and css positions
+
+write a blog about how to build a blog website using HTML, CSS, and host in github then deploy it to vercel
+
+build a basic web app structure using grid, flex and box model
